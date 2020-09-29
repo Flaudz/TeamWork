@@ -1,3 +1,44 @@
+:root {
+	--games-bg-color: #21136b;
+}
+
+/* Slider */
 .newGamesSlideShow img {
 	width: 100vw;
+}
+
+/* Search/MainSection */
+#searchGameInput {
+	text-align: center;
+	width: 20vw;
+}
+
+.searchInputDiv {
+	justify-content: center;
+	border-bottom: 1px white solid;
+	width: 100vw;
+	padding-bottom: 5vh;
+	margin-bottom: 2vh;
+}
+
+.mainSection {
+	background-color: var(--games-bg-color);
+	padding-top: 2vh;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: fit-content;
+}
+
+/* Games section */
+.games {
+	justify-content: center;
+	width: 100vw;
+}
+
+.games > div {
+	margin: 1vh 2vw;
+}
+
+.games img {
+	width: 18vw;
 }

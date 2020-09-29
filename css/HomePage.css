@@ -3,6 +3,11 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+:root {
+	--nav-bg-color: #190e4f;
+	--nav-text-color: white;
+	--text-color: #000000;
+}
 /* Menu */
 .flex {
 	display: flex;
@@ -23,11 +28,12 @@ li {
 
 .menu li a {
 	font-size: larger;
+	color: var(--nav-text-color);
 }
 
 #navigation {
 	height: 4vh;
-	background-color: lightgrey;
+	background-color: var(--nav-bg-color);
 }
 
 /* Section */
