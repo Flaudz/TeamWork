@@ -1,39 +1,7 @@
-body {
-	margin: 0;
-	font-family: "Roboto", sans-serif;
-}
-
 :root {
 	--nav-bg-color: #190e4f;
 	--nav-text-color: white;
 	--text-color: #000000;
-}
-/* Menu */
-.flex {
-	display: flex;
-}
-
-li {
-	list-style: none;
-}
-
-.menu {
-	padding: 0;
-	justify-content: space-evenly;
-	width: 40vw;
-	margin: 0 auto;
-	height: 100%;
-	align-items: center;
-}
-
-.menu li a {
-	font-size: larger;
-	color: var(--nav-text-color);
-}
-
-#navigation {
-	height: 4vh;
-	background-color: var(--nav-bg-color);
 }
 
 /* Section */
