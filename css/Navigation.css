@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+}
+/* Navigation */
+#navigation {
+	width: 18vw;
+	background: linear-gradient(
+		150deg,
+		rgba(51, 51, 51, 1) 30%,
+		rgba(68, 68, 68, 1) 100%
+	);
+	height: 100vh;
+	position: relative;
+	position: fixed;
+}
+
+.hiddenNavigation {
+	left: -500px;
+}
+
+#navigationTitle {
+	padding-top: 2vh;
+	padding-bottom: 5vh;
+	width: fit-content;
+	font-size: 2.5vw;
+	color: white;
+	margin: 0 auto;
+}
+
+ul {
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul li {
+	margin-top: 3vh;
+	list-style: none;
+}
+
+ul a {
+	text-decoration: none;
+	font-size: 2vw;
+	color: #f6e8ea;
+}

@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+}
+
+#flagImg {
+	display: none;
+}
+
+#mainSection {
+	width: 82vw;
+	margin-left: 18vw;
+}
+
+/* header */
+.profileimg {
+	width: 8%;
+}
+
+.navBackArrow {
+	width: 20%;
+}
+
+.mainHeader {
+	justify-content: space-between;
+	background-color: white;
+	-webkit-box-shadow: 0px -10px 6px 13px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px -10px 6px 13px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px -10px 6px 13px rgba(0, 0, 0, 0.75);
+}
+
+.rightSection {
+	justify-content: flex-end;
+}
+
+/* MiddleMain */
+#middleMain {
+	width: 80%;
+}
+
+.sideSection {
+	width: 20%;
+}
+
+/* Groups And Friends */
+.groupsSection {
+	flex-wrap: wrap;
+}
+
+.groupsText {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2vw;
+}
+
+.group {
+	margin-top: 3vh;
+	border: 1px solid black;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.rightGroup {
+	align-items: center;
+	margin: 2%;
+}
+
+.rightGroup p {
+	margin: 0;
+	margin-left: 5%;
+}
+
+.group img {
+	width: 2vw;
+	height: 2vw;
+}
+
+.group .numbersOfMembers {
+	margin-right: 2%;
+}
