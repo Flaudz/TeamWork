@@ -4,8 +4,9 @@ body {
 
 /* SlideShow */
 .slideshow-container {
-	width: 100%;
+	width: 82%;
 	margin: 0;
+	margin-left: 18%;
 	overflow: hidden;
 }
 

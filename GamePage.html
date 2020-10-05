@@ -9,25 +9,41 @@
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="css/GamePage.css" />
 		<link rel="stylesheet" href="css/Navigation.css" />
+		<link rel="stylesheet" href="slideshow.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Free Web tutorials" />
 		<title>SocSpit</title>
 	</head>
 	<body>
-		<nav id="navigation">
-			<ul class="menu flex">
-				<li>
-					<a href="#"><img src="" alt="" />Games</a>
-				</li>
-				<li><a href="#">Groups</a></li>
-				<li><a href="#">Messages</a></li>
-				<li><a href="#">Profile</a></li>
-			</ul>
-		</nav>
-		<section class="newGamesSlideShow">
-			<img src="img/CSGO-Banner.png" alt="Csgo" />
-			<img src="img/Smite-Banner.png" alt="Smite" />
-		</section>
+		<div class="flex">
+
+			<nav id="navigation">
+				<ul class="menu flex">
+					<li>
+						<a href="#"><img src="" alt="" />Games</a>
+					</li>
+					<li><a href="#">Groups</a></li>
+					<li><a href="#">Messages</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</nav>
+			<div class="slideshow-container">
+				<div class="slideShow-slide">
+					<img src="https://picsum.photos/id/237/1920/200" alt="" />
+					<img src="https://picsum.photos/id/228/1920/200" alt="" />
+					<img src="https://picsum.photos/id/229/1920/200" alt="" />
+					<img src="https://picsum.photos/id/230/1920/200" alt="" />
+					<img src="https://picsum.photos/id/231/1920/200" alt="" />
+					<img src="https://picsum.photos/id/232/1920/200" alt="" />
+					<img src="https://picsum.photos/id/233/1920/200" alt="" />
+					<img src="https://picsum.photos/id/234/1920/200" alt="" />
+					<img src="https://picsum.photos/id/235/1920/200" alt="" />
+					<img src="https://picsum.photos/id/236/1920/200" alt="" />
+					<img src="https://picsum.photos/id/238/1920/200" alt="" />
+				</div>
+			</div>
+		</div>
+		<script src="slideshow.js"></script>
 		<main class="mainSection flex">
 			<div class="searchInputDiv flex">
 				<input type="search" id="searchGameInput" />
